@@ -1,0 +1,52 @@
+{
+  "name": "emby",
+  "release": "13.1-RELEASE",
+  "artifact": "https://github.com/Lefhar/iocage-amd64.git",
+  "pkgs": [
+    "audio/libogg",
+    "audio/libvorbis",
+    "audio/opus",
+    "converters/fribidi",
+    "databases/sqlite3",
+    "devel/icu",
+    "devel/libinotify",
+    "devel/libunwind",
+    "devel/orc",
+    "converters/fribidi",
+    "converters/libiconv",
+    "devel/libzvbi",
+    "devel/ocl-icd",
+    "graphics/jpeg-turbo",
+    "graphics/libdrm",
+    "graphics/libexif",
+    "graphics/libheif",
+    "graphics/libimagequant",
+    "graphics/libjxl",
+    "graphics/openexr",
+    "graphics/openjpeg",
+    "graphics/png",
+    "graphics/tesseract",
+    "graphics/tiff",
+    "graphics/webp",
+    "multimedia/intel-media-sdk",
+    "multimedia/libass",
+    "multimedia/libtheora",
+    "multimedia/libva",
+    "print/freetype2",
+    "security/gnutls",
+    "security/krb5",
+    "security/mbedtls",
+    "security/openssl",
+    "textproc/expat2",
+    "x11-fonts/fontconfig",
+    "x11-toolkits/pango"
+  ],
+  "packagesite": "http://pkg.freebsd.org/FreeBSD:13:amd64/latest",
+  "fingerprints": {
+    "plugin-default": [{
+      "function": "sha256",
+      "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+    }]
+  },
+  "official": false
+}
